@@ -1,0 +1,19 @@
+[WARN] [1779756371.585997039] [controller_manager]: [Deprecated] Passing the robot description parameter directly to the control_manager node is deprecated. Use '~/robot_description' topic from 'robot_state_publisher' instead.
+[INFO] [1779756371.586437595] [resource_manager]: Loading hardware 'MockSystem' 
+[INFO] [1779756371.586705395] [resource_manager]: Initialize hardware 'MockSystem' 
+[INFO] [1779756371.586728760] [resource_manager]: Successful initialization of hardware 'MockSystem'
+[INFO] [1779756371.586772252] [resource_manager]: 'configure' hardware 'MockSystem' 
+[INFO] [1779756371.586780745] [resource_manager]: Successful 'configure' of hardware 'MockSystem'
+[INFO] [1779756371.586784972] [resource_manager]: 'activate' hardware 'MockSystem' 
+[INFO] [1779756371.586788020] [resource_manager]: Successful 'activate' of hardware 'MockSystem'
+[INFO] [1779756371.587880074] [controller_manager]: update rate is 100 Hz
+[INFO] [1779756371.587900042] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[WARN] [1779756371.588036447] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[INFO] [1779756396.014135842] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1779756396.014377993] [controller_manager]: Shutdown request received....
+[INFO] [1779756396.014459911] [controller_manager]: Shutting down all controllers in the controller manager.
+[INFO] [1779756396.014489809] [resource_manager]: 'deactivate' hardware 'MockSystem' 
+[INFO] [1779756396.014498369] [resource_manager]: Successful 'deactivate' of hardware 'MockSystem'
+[INFO] [1779756396.014502194] [resource_manager]: 'shutdown' hardware 'MockSystem' 
+[INFO] [1779756396.014507052] [resource_manager]: Successful 'shutdown' of hardware 'MockSystem'
+[INFO] [1779756396.014510974] [controller_manager]: Shutting down the controller manager.

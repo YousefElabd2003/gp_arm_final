@@ -1,6 +1,55 @@
+<<<<<<< HEAD
 *.i
 *.ii
 *.gpu
 *.ptx
 *.cubin
 *.fatbin
+=======
+##################################
+# ROS / ROS2 (colcon)
+##################################
+build/
+install/
+log/
+.vscode/
+build/
+install/
+log/
+
+# build folders inside src (غلط تترفع)
+src/**/build/
+
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+##################################
+# CMake / C++
+##################################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+##################################
+# VS Code
+##################################
+.vscode/
+
+##################################
+# OS / Editor junk
+##################################
+.DS_Store
+*.swp
+*.tmp
+*~
+
+##################################
+# Env / secrets
+##################################
+.env
+>>>>>>> 07dbce2 (Initial commit for graduation project)
